@@ -22,10 +22,9 @@
         <li>Bonjour</li>
         <li>Mon nom</li>
         <li>est</li>
-        <li>Bonjour</li>
-        <li>Bonjour</li>
+        <li>Gabriel</li>
     </ul>
-	</main><!-- #main -->
+    
 <?php
 get_footer();
 
