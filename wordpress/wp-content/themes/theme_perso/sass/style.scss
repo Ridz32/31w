@@ -1,4 +1,4 @@
-/*!
+/*
 Theme Name: 31W - Rizo
 Theme URI: http://underscores.me/
 Author: Gabriel
@@ -10,18 +10,11 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 */
 
 /* Importation des variables */
-@import "variables/colors";
-@import "variables/typography";
-
-/* Normalize */
-@import "generic/box-sizing";
-@import "generic/normalize";
+@import "variables/couleurs";
+@import "variables/polices";
 
 /* Éléments de base */
-@import "base/elements/body";
-@import "base/elements/buttons";
-@import "base/elements/fields";
-@import "base/typography/copy";
-@import "base/typography/headings";
+@import "base/body";
+@import "base/heading";
 
 
