@@ -18,3 +18,7 @@ html {
 ul{
     background-color: hsl(256, 29%, 70%)
 }
+
+div {
+    color: bleu;
+}
