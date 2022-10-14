@@ -17,7 +17,7 @@
 
 
 ?>
-<h1>Index.php</h1>
+    <h1>Index.php</h1>
 	<ul>
         <li>Bonjour</li>
         <li>Mon nom</li>
