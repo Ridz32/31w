@@ -153,5 +153,3 @@ function igc31w_scripts() {
 add_action( 'wp_enqueue_scripts', 'igc31w_scripts' );
 
 
-*/
-
