@@ -24,7 +24,12 @@
         <li>est</li>
         <li>Gabriel</li>
     </ul>
-    
+
+    <div>
+        <h2>Oii!</h2>
+            <p>Je suis joyeux de faire cet excercice!</p>
+    </div>
+
 <?php
 get_footer();
 
