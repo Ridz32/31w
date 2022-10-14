@@ -84,7 +84,8 @@ define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 
-
+define('WP_HOME','http://maisonneuve/Wordpress/31w/wordpress/');
+define('WP_SITEURL','http://maisonneuve/Wordpress/31w/wordpress/');
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

@@ -12,7 +12,9 @@
  * @package igc31w
  */
 
-get_header();
+// get_header();
+ wp_head();
+
 
 ?>
 <h1>Index.php</h1>
