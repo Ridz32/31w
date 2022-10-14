@@ -5,7 +5,6 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package igc31w
- * test
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
