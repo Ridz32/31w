@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package igc31w
+ * @package rizo
  */
 
 get_header();
