@@ -1,0 +1,25 @@
+h1 {font-size : clamp(1rem, 5vw, 7rem);}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font__titre__secondaire;
+}
+
+h1
+{
+	font-family: $font__titre;
+} 
+
+.menu__principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu__principal {
+    list-style: none;
+}
+
