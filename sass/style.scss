@@ -1,0 +1,20 @@
+/*
+Theme Name: 31W - Rizo
+Theme URI: http://underscores.me/
+Author: Gabriel
+Author URI: https://github.com/ridz32
+Description: thème de base de wp
+Version: 1.0.0
+Text Domain: _31w
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* Importation des variables */
+@import "variables/couleurs";
+@import "variables/polices";
+
+/* Éléments de base */
+@import "base/body";
+@import "base/heading";
+
+
