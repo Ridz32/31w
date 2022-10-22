@@ -207,6 +207,7 @@ function igc31w_filtre_choix_menu($obj_menu, $arg){
     {
       //  print_r($value);
        $value->title = substr($value->title,8);
+       $value->title = substr($value->title,0, -6);
        $value->title = wp_trim_words($value->title,3,"...");
         //echo $value->title . '<br>';
      } 
