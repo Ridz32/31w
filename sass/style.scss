@@ -10,11 +10,24 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 */
 
 /* Importation des variables */
-@import "variables/couleurs";
-@import "variables/polices";
+@import "variables/colors";
+@import "variables/typography";
+@import "variables/structure";
+
+/* Normalize */
+@import "generic/box-sizing";
+@import "generic/normalize";
 
 /* Éléments de base */
-@import "base/body";
-@import "base/heading";
+@import "base/elements/body";
+@import "base/elements/buttons";
+@import "base/elements/fields";
+@import "base/typography/copy";
+@import "base/typography/headings";
 
+/* Composants */
+@import "composants/nav_primaire";
+@import "composants/nav_aside";
 
+/* Layout */
+@import "layout/sidebar-content";
