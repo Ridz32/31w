@@ -334,7 +334,7 @@ template {
 
 /* Éléments de base */
 body {
-  background: #fff;
+  background: rgb(77, 211, 255);
 }
 
 button,
@@ -414,7 +414,7 @@ textarea {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 
 dfn,
@@ -466,7 +466,7 @@ big {
 }
 
 h1 {
-  font-size: clamp(1rem, 4vw, 5rem);
+  font-size: clamp(1rem, 3vw, 3rem);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -479,23 +479,23 @@ h6 {
 }
 
 h2 {
-  font-size: clamp(0.9rem, 4vw, 4rem);
+  font-size: clamp(0.9rem, 2.5vw, 2.5rem);
 }
 
 h3 {
-  font-size: clamp(0.9rem, 3vw, 3rem);
+  font-size: clamp(0.9rem, 2.3vw, 2.3rem);
 }
 
 h4 {
-  font-size: clamp(0.8rem, 3vw, 2rem);
+  font-size: clamp(0.8rem, 2.2vw, 2.2rem);
 }
 
 h5 {
-  font-size: clamp(0.7rem, 3vw, 2rem);
+  font-size: clamp(0.7rem, 2vw, 2rem);
 }
 
 h6 {
-  font-size: clamp(0.6rem, 2vw, 2rem);
+  font-size: clamp(0.6rem, 1.8vw, 1.8rem);
 }
 
 /* Composants */
@@ -549,7 +549,7 @@ h6 {
 
 .site__header {
   grid-area: header;
-  background-color: #bbb;
+  background-color: rgb(77, 211, 255);
 }
 
 .site__main {
