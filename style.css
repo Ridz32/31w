@@ -334,7 +334,7 @@ template {
 
 /* Éléments de base */
 body {
-  background: rgb(77, 211, 255);
+  background: hsl(204deg, 100%, 79%);
 }
 
 button,
@@ -549,21 +549,21 @@ h6 {
 
 .site__header {
   grid-area: header;
-  background-color: rgb(77, 211, 255);
+  background-color: hsl(204deg, 60%, 0%);
 }
 
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-  background-color: #ccc;
+  background-color: hsl(204deg, 40%, 79%);
 }
 
 .site__sidebar {
   grid-area: sidebar;
-  background-color: #ddd;
+  background-color: hsl(204deg, 60%, 79%);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #bbb;
+  background-color: hsl(204deg, 80%, 0%);
 }/*# sourceMappingURL=style.css.map */
