@@ -3,7 +3,7 @@
 Theme Name: 31W - Rizo
 Theme URI: http://underscores.me/
 Author: Gabriel
-Author URI: https://github.com/ridz32
+Author URI: https://github.com/rizo32
 Description: thème de base de wp
 Version: 1.0.0
 Text Domain: _31w
@@ -550,6 +550,7 @@ h6 {
 .site__header {
   grid-area: header;
   background-color: hsl(204deg, 60%, 0%);
+  color: hsl(204deg, 100%, 100%);
 }
 
 .site__main {
@@ -566,4 +567,5 @@ h6 {
 .site__footer {
   grid-area: footer;
   background-color: hsl(204deg, 80%, 0%);
+  color: hsl(204deg, 100%, 100%);
 }/*# sourceMappingURL=style.css.map */
