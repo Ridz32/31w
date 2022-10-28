@@ -335,7 +335,7 @@ template {
 
 /* Éléments de base */
 body {
-  background: hsl(204deg, 100%, 79%);
+  background: hsl(204deg, 57%, 64%);
 }
 
 button,
@@ -434,7 +434,7 @@ address {
 }
 
 pre {
-  background: #eee;
+  background: rgb(135, 135, 135);
   font-family: "Courier 10 Pitch", courier, monospace;
   line-height: 1.6;
   margin-bottom: 1.6em;
