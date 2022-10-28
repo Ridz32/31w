@@ -12,7 +12,7 @@
 ?>
 
 	<footer class="site__footer">
-		<h2>G. Rizzoli, https://github.com/rizo32</h2>
+		<h2>G. Rizzoli, <a href=https://github.com/rizo32>mon github!</a></h2>
     </footer><!-- #colophon -->
 </div><!-- #page -->
 

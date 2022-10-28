@@ -88,6 +88,7 @@ pre {
  */
 a {
   background-color: transparent;
+  color: white;
 }
 
 /**
@@ -561,7 +562,7 @@ h6 {
 
 .site__sidebar {
   grid-area: sidebar;
-  background-color: hsl(204deg, 60%, 79%);
+  background-color: hsl(204deg, 28%, 37%);
 }
 
 .site__footer {
