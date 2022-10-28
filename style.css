@@ -88,6 +88,7 @@ pre {
  */
 a {
   background-color: transparent;
+  color: white;
 }
 
 /**
@@ -334,7 +335,7 @@ template {
 
 /* Éléments de base */
 body {
-  background: hsl(204deg, 100%, 79%);
+  background: hsl(204deg, 57%, 64%);
 }
 
 button,
@@ -433,7 +434,7 @@ address {
 }
 
 pre {
-  background: #eee;
+  background: rgb(135, 135, 135);
   font-family: "Courier 10 Pitch", courier, monospace;
   line-height: 1.6;
   margin-bottom: 1.6em;
@@ -542,7 +543,7 @@ h6 {
 }
 @media screen and (min-width: 700px) {
   .site {
-    grid-template-columns: 25% auto;
+    grid-template-columns: 20% auto;
     grid-template-areas: "header header" "sidebar main" "footer footer";
   }
 }
@@ -561,7 +562,7 @@ h6 {
 
 .site__sidebar {
   grid-area: sidebar;
-  background-color: hsl(204deg, 60%, 79%);
+  background-color: hsl(204deg, 28%, 37%);
 }
 
 .site__footer {

@@ -12,7 +12,7 @@
 ?>
 
 	<footer class="site__footer">
-		<h2>Pied de page du 31W</h2>
+		<h2>G. Rizzoli, <a href=https://github.com/rizo32>mon github!</a></h2>
     </footer><!-- #colophon -->
 </div><!-- #page -->
 
