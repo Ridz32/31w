@@ -53,7 +53,7 @@
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
 	<aside class="site__sidebar">
-	<h2>Menu sidebar</h2>
+	<h2>Liste des cours</h2>
 	<?php 
 		wp_nav_menu(array(
 			"menu" => "aside",
