@@ -17,7 +17,7 @@
 
 
 ?>
-<h1>Index.php</h1>
+<h1>Index du cours</h1>
 	<main class="site__main">
 
 		<?php
