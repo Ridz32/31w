@@ -535,6 +535,10 @@ h6 {
   padding: 3px 4px;
 }
 
+.sidebar {
+  padding-bottom: 2rem;
+}
+
 /* Layout */
 .site {
   display: grid;
