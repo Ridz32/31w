@@ -53,7 +53,7 @@
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
 	<aside class="site__menu">
-	<h2>Menu sidebar</h2>
+	<h2>Menu aside</h2>
 	<?php 
 		wp_nav_menu(array(
 			"menu" => "aside",
@@ -64,6 +64,6 @@
 
 	</aside>
 
-    <!-- <aside class="site__sidebar">
+    <aside class="site__sidebar">
 
-    </aside> -->
+    </aside>

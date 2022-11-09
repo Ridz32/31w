@@ -5,6 +5,7 @@
         "menu"
 		"header"
 		"main"
+        "sidebar"
 		"footer";
 	@media screen and(min-width: 700px){
 
@@ -12,6 +13,8 @@
 	grid-template-areas:
 		"header header"
 		"menu main"
+        "sidebar main"
+        ". main"
 		"footer footer";
 	}
 }
@@ -30,6 +33,11 @@
 
 .site__menu {
 	grid-area: menu;
+    background-color: $color__background-menu;
+}
+
+.site__sidebar {
+	grid-area: sidebar;
     background-color: $color__background-sidebar;
 }
 
