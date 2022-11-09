@@ -544,7 +544,7 @@ h6 {
 @media screen and (min-width: 700px) {
   .site {
     grid-template-columns: 20% auto;
-    grid-template-areas: "header header" "menu main" "footer footer";
+    grid-template-areas: "header header" "menu main" "sidebar main" ". main" "footer footer";
   }
 }
 
@@ -562,7 +562,7 @@ h6 {
 
 .site__menu {
   grid-area: menu;
-  background-color: hsl(204deg, 28%, 37%);
+  background-color: hsl(204deg, 40%, 79%);
 }
 
 .site__sidebar {

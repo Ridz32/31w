@@ -65,5 +65,6 @@
 	</aside>
 
     <aside class="site__sidebar">
-
+        <h6>Calendrier</h6>
+        <?php get_sidebar( 'primary' ); ?>
     </aside>
