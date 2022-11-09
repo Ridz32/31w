@@ -1,9 +1,9 @@
 @charset "UTF-8";
-/*
-Theme Name: 31W - Rizo
+/*!
+Theme Name: 31W - Gabriel R. Rizzoli
 Theme URI: http://underscores.me/
 Author: Gabriel
-Author URI: https://github.com/rizo32
+Author URI: https://github.com/ridz32
 Description: thème de base de wp
 Version: 1.0.0
 Text Domain: _31w
@@ -57,7 +57,7 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0 0 0.25rem 0.5rem;
+  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -88,7 +88,6 @@ pre {
  */
 a {
   background-color: transparent;
-  color: white;
 }
 
 /**
@@ -335,7 +334,7 @@ template {
 
 /* Éléments de base */
 body {
-  background: hsl(204deg, 57%, 64%);
+  background: #fff;
 }
 
 button,
@@ -415,7 +414,7 @@ textarea {
 }
 
 p {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 dfn,
@@ -434,7 +433,7 @@ address {
 }
 
 pre {
-  background: rgb(135, 135, 135);
+  background: #eee;
   font-family: "Courier 10 Pitch", courier, monospace;
   line-height: 1.6;
   margin-bottom: 1.6em;
@@ -467,8 +466,7 @@ big {
 }
 
 h1 {
-  font-size: clamp(1rem, 3vw, 3rem);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: clamp(1rem, 5vw, 7rem);
 }
 
 h2,
@@ -479,94 +477,6 @@ h6 {
   font-family: trebuchet;
 }
 
-h2 {
-  font-size: clamp(0.9rem, 2.5vw, 2.5rem);
-}
-
-h3 {
-  font-size: clamp(0.9rem, 2.3vw, 2.3rem);
-}
-
-h4 {
-  font-size: clamp(0.8rem, 2.2vw, 2.2rem);
-}
-
-h5 {
-  font-size: clamp(0.7rem, 2vw, 2rem);
-}
-
-h6 {
-  font-size: clamp(0.6rem, 1.8vw, 1.8rem);
-}
-
-/* Composants */
-.menu__primaire {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu__primaire .menu {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 12%;
-  flex: 1;
-  list-style-type: none;
-}
-
-.menu__primaire .menu-item a {
-  text-decoration: none;
-}
-
-.menu__aside {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.menu__aside .menu {
-  list-style-type: none;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.menu__aside .menu-item a {
-  text-decoration: none;
-  padding: 3px 4px;
-}
-
-/* Layout */
-.site {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: "header" "sidebar" "main" "footer";
-}
-@media screen and (min-width: 700px) {
-  .site {
-    grid-template-columns: 20% auto;
-    grid-template-areas: "header header" "sidebar main" "footer footer";
-  }
-}
-
-.site__header {
-  grid-area: header;
-  background-color: hsl(204deg, 60%, 0%);
-  color: hsl(204deg, 100%, 100%);
-}
-
-.site__main {
-  grid-area: main;
-  overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-  background-color: hsl(204deg, 40%, 79%);
-}
-
-.site__sidebar {
-  grid-area: sidebar;
-  background-color: hsl(204deg, 28%, 37%);
-}
-
-.site__footer {
-  grid-area: footer;
-  background-color: hsl(204deg, 80%, 0%);
-  color: hsl(204deg, 100%, 100%);
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }/*# sourceMappingURL=style.css.map */
