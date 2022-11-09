@@ -52,7 +52,7 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
-	<aside class="site__sidebar">
+	<aside class="site__menu">
 	<h2>Menu sidebar</h2>
 	<?php 
 		wp_nav_menu(array(
@@ -63,3 +63,7 @@
 	?>
 
 	</aside>
+
+    <!-- <aside class="site__sidebar">
+
+    </aside> -->
