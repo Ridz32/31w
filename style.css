@@ -569,7 +569,7 @@ h6 {
 .menu__aside .menu-item a {
   text-decoration: none;
   padding: 3px 4px;
-  color: #fff;
+  color: rgb(228, 236, 243);
 }
 
 .sidebar {
@@ -616,27 +616,27 @@ h6 {
 
 .site__header {
   grid-area: header;
-  background-color: #bbb;
+  background-color: hsl(204deg, 60%, 0%);
 }
 
 .site__main {
   grid-area: main;
   overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-  background-color: #ccc;
+  background-color: hsl(204deg, 40%, 79%);
 }
 
 .site__menu {
   position: relative;
   grid-area: menu;
-  background-color: #ddd;
+  background-color: hsl(204deg, 40%, 79%);
 }
 
 .site__sidebar {
   grid-area: sidebar;
-  background-color: #ddd;
+  background-color: hsl(204deg, 28%, 37%);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #bbb;
+  background-color: hsl(204deg, 20%, 30%);
 }/*# sourceMappingURL=style.css.map */
