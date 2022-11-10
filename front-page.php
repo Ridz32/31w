@@ -16,7 +16,6 @@ get_header();
 
 ?>
 	<main class="site__main">
-		<code>front-page.php</code>
 		<?php
 		if ( have_posts() ) :
 			/* Start the Loop */
