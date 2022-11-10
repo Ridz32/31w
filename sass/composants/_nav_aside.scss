@@ -25,13 +25,11 @@
 
 
 .menu__aside{ // nav
-background-color: black;
-
+    background-color: $color__background-aside;
 	display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
     position : absolute;
     top:30px;
     transform: translateX(-100vw);
@@ -42,16 +40,11 @@ background-color: black;
         width: 100%;  
         transform: translateX(0);
     }
-
-
 }
 .menu__aside .menu{ // ul
     list-style-type: none;
     margin: 0 0 0 1rem;
     padding: 0;
-}
-
-.menu__aside .menu-item{ // li
 }
 
 .menu__aside .menu-item a{
