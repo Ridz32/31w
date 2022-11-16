@@ -16,7 +16,6 @@ get_header();
 
 ?>
 	<main class="site__main">
-		<code>index.php</code>
 		<?php
 		if ( have_posts() ) :
 			/* Start the Loop */
@@ -31,10 +30,7 @@ get_header();
 			<blockquote><?php the_excerpt(); ?></blockquote>
 			<blockquote><?= wp_trim_words(get_the_excerpt(),5, $le_permalien); ?></blockquote>
 			
-			<pre><?php the_category(); ?></pre>
-			<pre><?php the_date(); ?></pre>
-			<pre><?php the_permalink();  ?></pre>
-			<pre><?php the_author(); ?></pre>
+
 
 <?php
 			endwhile;

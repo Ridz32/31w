@@ -12,9 +12,15 @@
 ?>
 
 	<footer class="site__footer">
-		<h2>G. Rizzoli, <a href=https://github.com/rizo32>mon github!</a></h2>
+		<!-- <h2>G. Rizzoli, <a href=https://github.com/rizo32>mon github!</a></h2> -->
+        <?php get_sidebar( 'footer-1' ); ?>
+        <?php get_sidebar( 'footer-2' ); ?>
+        <?php get_sidebar( 'footer-3' ); ?>
     </footer><!-- #colophon -->
 </div><!-- #page -->
+
+<aside>
+</aside>
 
 <?php wp_footer(); ?>
 

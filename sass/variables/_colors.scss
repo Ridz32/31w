@@ -1,13 +1,15 @@
 $color__background-body: hsl(204, 57%, 64%);
 $color__background-header: hsl(204, 60%, 0%);
 $color__background-main: hsl(204, 40%, 79%);
+$color__background-menu: hsl(204, 40%, 79%);
 $color__background-sidebar: hsl(204, 28%, 37%);
-$color__background-footer: hsl(204, 80%, 0%);
+$color__background-footer: hsl(204, 20%, 30%);
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
 $color__background-pre: rgb(135, 135, 135);
 $color__background-ins: #fff9c0;
+$color__background-aside: hsl(204, 73%, 37%);
 
 $color__text-screen: hsl(204, 100%, 100%);
 $color__text-white: hsl(204, 100%, 100%);
@@ -16,6 +18,9 @@ $color__text-input-focus: #111;
 $color__link: hsl(0, 0%, 30%); //royalblue
 $color__link-visited: hsl(0, 0%, 20%); //purple
 $color__link-hover: #191970; //midnightblue
+$color__link__menu__aside : rgb(228, 236, 243);
+$color__link__menu__aside-visited : rgb(234, 247, 250);
+$color__link__menu__aside-hover : #fff;
 $color__text-main: #404040;
 
 $color__border-button: #ccc #ccc #bbb;
