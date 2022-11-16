@@ -1,25 +1,24 @@
-.evenement {
-
-}
-
-.evenement .menu {
-    display: flex;
+.evenement {}
+.evenement  .menu{
+    display : flex;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style-type: none;
 }
-
-.evenemen .menu-item {
-    flex: 0 1 200px;
-    border: 1px solid #aaa;
+.evenement  .menu-item{
+    flex : 0 1 200px;
+    border : 1px solid #aaa;
 }
-
-.evenemen .menu-item a {
+.evenement  .menu-item a{
     text-decoration: none;
 }
 
-
-
-
-
-
+.evenement__stage {
+    background-color: aquamarine;
+}
+.evenement__projet {
+    background-color: #fffd7f;
+}
+.evenement__porte {
+    background-color: rgb(21, 157, 236);
+}
