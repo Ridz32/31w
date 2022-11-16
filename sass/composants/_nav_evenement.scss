@@ -14,11 +14,11 @@
 }
 
 .evenement__stage {
-    background-color: aquamarine;
+    background-color: $color__background-nav-evenement-stage;
 }
 .evenement__projet {
-    background-color: #fffd7f;
+    background-color: $color__background-nav-evenement-projet;
 }
 .evenement__porte {
-    background-color: rgb(21, 157, 236);
+    background-color: $color__background-nav-evenement-porte;
 }
