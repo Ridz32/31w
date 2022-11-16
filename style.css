@@ -533,6 +533,18 @@ h6 {
   text-decoration: none;
 }
 
+.evenement__stage {
+  background-color: blue;
+}
+
+.evenement__projet {
+  background-color: red;
+}
+
+.evenement__porte {
+  background-color: green;
+}
+
 .menu__aside {
   display: flex;
   flex-direction: column;
