@@ -517,6 +517,22 @@ h6 {
   text-decoration: none;
 }
 
+.evenement .menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.evenement .menu-item {
+  flex: 0 1 200px;
+  border: 1px solid #aaa;
+}
+
+.evenement .menu-item a {
+  text-decoration: none;
+}
+
 .menu__aside {
   display: flex;
   flex-direction: column;
