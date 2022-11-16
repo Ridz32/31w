@@ -1,10 +1,10 @@
 @charset "UTF-8";
-/*
-Theme Name: 31W - Rizo
+/*!
+Theme Name: 31W - Eddy Martin
 Theme URI: http://underscores.me/
-Author: Gabriel
-Author URI: https://github.com/rizo32
-Description: thème de base développé dans le cadre du cours de 31W.
+Author: Eddy Martin
+Author URI: https://github.com/....
+Description: thème de base développé dans le cadre du cours de 31W. 
 Version: 1.0.0
 Text Domain: _31w
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
@@ -570,6 +570,34 @@ h6 {
   text-decoration: none;
   padding: 3px 4px;
   color: rgb(228, 236, 243);
+}
+
+.evenement .menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.evenement .menu-item {
+  flex: 0 1 200px;
+  border: 1px solid #aaa;
+}
+
+.evenement .menu-item a {
+  text-decoration: none;
+}
+
+.evenement__stage {
+  background-color: aquamarine;
+}
+
+.evenement__projet {
+  background-color: #fffd7f;
+}
+
+.evenement__porte {
+  background-color: rgb(21, 157, 236);
 }
 
 .sidebar {
