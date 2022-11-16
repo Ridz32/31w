@@ -3,15 +3,19 @@
 }
 
 .evenement .menu {
-
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .evenemen .menu-item {
-
+    flex: 0 1 200px;
+    border: 1px solid #aaa;
 }
 
 .evenemen .menu-item a {
-
+    text-decoration: none;
 }
 
 

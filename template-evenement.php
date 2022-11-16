@@ -1,3 +1,5 @@
+/* page a des modèle, article n'a pas de modèle */
+
 <?php
 /**
  * The main template file
@@ -17,16 +19,33 @@ get_header();
 ?>
 <h1>single.php</h1>
 	<main class="site__main">
-
+    <h1>--- template evenement.
 		<?php
 		if ( have_posts() ) :
 			/* Start the Loop */
 				the_post(); ?>
 			<h1><?= get_the_title(); ?></h1>
-			<?php the_content();		
+			<?php the_content();?>
+            <p>L'adresse de l'événement<?php the_field('adresse')		
 			endif;	
-		?>
+		?><p>
 	</main><!-- #main -->
 <?php
 get_footer();
 
+/*
+
+champs perso:
+
+cours
+sigle, duree, 
+
+evenements
+adresse, date et heure de l'événement
+(faut ajouter des champs)
+
+titre
+
+Reglage
+Publication
+model de page est egal a evenements
