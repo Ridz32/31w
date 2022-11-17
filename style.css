@@ -591,13 +591,32 @@ h6 {
 .evenement__stage {
   background-color: hsl(293deg, 80%, 20%);
 }
+.evenement__stage .menu-item-icone {
+  background-image: f;
+}
 
 .evenement__projet {
   background-color: hsl(293deg, 80%, 40%);
 }
+.evenement__projet .menu-item-icone {
+  background-image: f;
+}
 
 .evenement__porte {
   background-color: hsl(293deg, 80%, 40%);
+}
+.evenement__porte .menu-item-icone {
+  background-image: f;
+}
+
+.grille {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.grille__article {
+  flex: 0 1 250px;
 }
 
 .sidebar {
