@@ -8,7 +8,6 @@
 get_header();
 
 ?>
-<h1>single.php</h1>
 	<main class="site__main">
 
 		<?php
@@ -17,8 +16,9 @@ get_header();
 				the_post(); ?>
 			<h1><?= get_the_title(); ?></h1>
 			<?php the_content();?>
-            <p>L'adresse de l'evénement<?php the_field('adresse'); ?></p>
-            <p>La date et l'heure de l'événement<?php the_field('date_et_heure_de_levenement'); ?></p>
+            <p>L'adresse de l'evénement :<?php the_field('adresse'); ?></p>
+            <p>La date et l'heure de l'événement :<?php the_field('date_et_heure_de_levenement'); ?></p>
+            <p>Le type d'événement: <?php the_field('type_devenement'); ?></p>
             
 			<?php endif;	?>
 		

@@ -16,8 +16,8 @@ get_header();
 
 ?>
 	<main class="site__main">
-		<code>---front-page.---</code>
-		<?php  wp_nav_menu(array(
+
+        <?php  wp_nav_menu(array(
 			"menu" => "evenement",
 			"container" => "nav",
 			"container_class" => "evenement"
@@ -33,14 +33,12 @@ get_header();
 				the_post(); ?>
 				<article class="grille__article">
 			<h6><?= get_the_title(); ?></h6>
-			------------------
-			<?php // echo (is_category('galerie')) ?>
 
 			<?php 
-			$le_permalien = "<a href='" . get_the_permalink() . "'>Suite</a>";
+			$le_permalien = "<a href='" . get_the_permalink() . "'>... Suite</a>";
 			?>
 			
-			<p><?= wp_trim_words(get_the_excerpt(), 20,$le_permalien) ; ?></p>
+			<p><?= wp_trim_words(get_the_excerpt(), 15, $le_permalien) ; ?></p>
 			
 
 			</article>

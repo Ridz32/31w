@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*!
-Theme Name: 31W - Eddy Martin
+    Theme Name: 31W - G. Rizzoli
 Theme URI: http://underscores.me/
-Author: Eddy Martin
-Author URI: https://github.com/....
+Author: GRR
+Author URI: https://github.com/rizo32/31w
 Description: thème de base développé dans le cadre du cours de 31W. 
 Version: 1.0.0
 Text Domain: _31w
@@ -588,25 +588,35 @@ h6 {
   text-decoration: none;
 }
 
+.menu-item-icone {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+
+.evenement__stage {
+  background-color: aquamarine;
+}
+
 .evenement__stage {
   background-color: hsl(293deg, 80%, 20%);
 }
 .evenement__stage .menu-item-icone {
-  background-image: f;
+  background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=arrow-down");
 }
 
 .evenement__projet {
   background-color: hsl(293deg, 80%, 40%);
 }
 .evenement__projet .menu-item-icone {
-  background-image: f;
+  background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=arrow-down");
 }
 
 .evenement__porte {
   background-color: hsl(293deg, 80%, 40%);
 }
 .evenement__porte .menu-item-icone {
-  background-image: f;
+  background-image: url("https://s2.svgbox.net/hero-solid.svg?ic=arrow-down");
 }
 
 .grille {
