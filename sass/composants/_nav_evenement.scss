@@ -1,25 +1,53 @@
-.evenement {
-
-}
-
-.evenement .menu {
-    display: flex;
+.evenement {}
+.evenement  .menu{
+    display : flex;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style-type: none;
 }
-
-.evenemen .menu-item {
-    flex: 0 1 200px;
-    border: 1px solid #aaa;
+.evenement  .menu-item{
+    flex : 0 1 200px;
+    border : 1px solid #aaa;
+    border-radius: 5px;
 }
-
-.evenemen .menu-item a {
+.evenement  .menu-item a{
     text-decoration: none;
+    color: black;
+}
+.menu-item-icone {
+    width : 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+.evenement__stage {
+    background-color: aquamarine;
+
+}
+.evenement__stage,
+.evenement__projet,
+.evenement__porte {
+    background-color: $color__background-nav-evenement-porte;
+    box-shadow: 2px 2px 1px hsla(0, 0%, 0%, 40%);
+    .menu-item-icone {
+        background-image: url('https://s2.svgbox.net/hero-solid.svg?ic=arrow-down');
+    }
 }
 
 
+.evenement__porte:hover,
+.evenement__stage:hover,
+.evenement__projet:hover {
+    background-color: black;
+}
 
+.evenement__porte:hover a,
+.evenement__stage:hover a,
+.evenement__projet:hover a {
+    color: white;
+}
 
-
-
+.evenement__porte:hover .menu-item-icone,
+.evenement__stage:hover .menu-item-icone,
+.evenement__projet:hover .menu-item-icone {
+    color: white;
+}

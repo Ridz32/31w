@@ -16,32 +16,31 @@ get_header();
 
 ?>
 	<main class="site__main">
-        <code>front-page.php</code>
-        <?php wp_nav_menu(array(
-            "menu" => "evenement",
-            "container" => "nav",
-            "container-class" => "evenement"
-    ));
-    
+		<?php  wp_nav_menu(array(
+			"menu" => "evenement",
+			"container" => "nav",
+			"container_class" => "evenement"
+		));
+?>
+
+
+<section class="grille">
+	<?php
 		if ( have_posts() ) :
 			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post(); ?>
-			<h1><?= get_the_title(); ?></h1>
+			while ( have_posts() ) : the_post(); ?>
 
-			<?php the_content();
-			$le_permalien = "<a href='" . get_the_permalink() . "'>Suite</a>";
-			?>
-			
-			<blockquote><?php the_excerpt(); ?></blockquote>
-			<blockquote><?= wp_trim_words(get_the_excerpt(),5, $le_permalien); ?></blockquote>
-			
+			<?php if (in_category('galerie')): ?>
+				<?php get_template_part( 'template-parts/accueil-galerie', '' ); ?>
+				<?php else: ?>
+				<?php get_template_part( 'template-parts/accueil-cours', '' ); ?>
 
-
-<?php
+			<?php endif; ?>
+			<?php
 			endwhile;
 			endif;	
-		?>
+			?>
+		</section>
 	</main><!-- #main -->
 <?php
 get_footer();
