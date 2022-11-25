@@ -29,8 +29,7 @@ get_header();
 				$titre = substr($titre,8);
 				$longueur = strlen($titre);
 
-				//$titre = substr($titre, strrpos($titre,'(') - strlen($titre));
-				$titre = substr($titre, 0, strrpos($titre,'(') - strlen($titre));
+				$titre = substr($titre, 0, strrpos($titre,'(') - $longueur);
 				?>
 			<header>	
 				<h5><?= $titre  ?></h5>

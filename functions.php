@@ -317,6 +317,7 @@ function prefix_nav_description( $item_output, $item) {
     }
     return $item_output;
 }
+// Ajoute la description si elle existe
 add_filter( 'walker_nav_menu_start_el', 'prefix_nav_description', 10, 2 );
 
 /**
