@@ -16,8 +16,8 @@ get_header();
 
 ?>
 	<main class="site__main">
-		<code>index.php</code>
-		<?php
+
+        <?php
 		if ( have_posts() ) :
 			/* Start the Loop */
 			while ( have_posts() ) :
