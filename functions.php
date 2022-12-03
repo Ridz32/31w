@@ -45,7 +45,8 @@ function igc31w_setup() {
 		*
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
-	// add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'post-thumbnails' );
+	add_image_size( 'miniature' );
 
 	// This theme uses wp_nav_menu() in one location.
 
