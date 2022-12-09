@@ -590,6 +590,7 @@ h6 {
 .evenement .menu-item a {
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 .menu-item-icone {
@@ -723,4 +724,4 @@ h6 {
 .site__footer {
   grid-area: footer;
   background-color: hsl(204deg, 20%, 30%);
-}/*# sourceMappingURL=style.css.map */
+}

@@ -49,6 +49,7 @@ function igc31w_setup() {
 		*/
 	add_theme_support( 'post-thumbnails' );
 	add_image_size( 'miniature' );
+	// add_image_size( 'remplissage', 400px, 400px );
 
 	// This theme uses wp_nav_menu() in one location.
 
