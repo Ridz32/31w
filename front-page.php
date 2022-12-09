@@ -16,7 +16,6 @@ get_header();
 
 ?>
 	<main class="site__main">
-		<code>---front-page.---</code>
 		<?php  wp_nav_menu(array(
 			"menu" => "evenement",
 			"container" => "nav",
