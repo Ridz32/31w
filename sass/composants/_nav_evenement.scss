@@ -1,4 +1,5 @@
 .evenement {}
+
 .evenement  .menu{
     display : flex;
     justify-content: space-around;
@@ -9,10 +10,12 @@
     flex : 0 1 200px;
     border : 1px solid #aaa;
     border-radius: 5px;
+    text-align: center;
 }
 .evenement  .menu-item a{
     text-decoration: none;
     color: black;
+
 }
 .menu-item-icone {
     width : 32px;
