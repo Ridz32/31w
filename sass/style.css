@@ -585,12 +585,12 @@ h6 {
   flex: 0 1 200px;
   border: 1px solid #aaa;
   border-radius: 5px;
-  text-align: center;
 }
 
 .evenement .menu-item a {
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 .menu-item-icone {
@@ -640,45 +640,15 @@ h6 {
 }
 
 .grille__article {
-  flex: 1 1 300px;
+  flex: 1 1 250px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   margin: 5px;
-  padding: 5px;
-  background-color: hsl(204deg, 20%, 20%);
-  box-shadow: 1px 1px 1px hsla(0deg, 0%, 0%, 0.4);
-  height: 300px;
-  width: 300px;
-  color: hsl(204deg, 100%, 100%);
-  font-size: 18px;
-  font-family: "Courier New", Courier, monospace;
-  box-sizing: border-box;
-}
-
-.grille__article p {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.grille__article h6 {
-  font-size: 21px;
-}
-
-.grille__article img {
-  height: 300px;
-  min-width: 300px;
-  object-fit: cover;
-  position: absolute;
-  z-index: 0;
-  opacity: 0.2;
-  transition: 0.2s ease-out;
-  pointer-events: none;
-}
-
-.grille__article:hover img {
-  opacity: 0.5;
+  padding: 3px;
+  background-color: hsl(204deg, 20%, 80%);
+  box-shadow: 2px 2px 1px hsla(0deg, 0%, 0%, 0.4);
 }
 
 .grille__article h6,

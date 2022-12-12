@@ -10,5 +10,9 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+h1 {
+	font-family: $font__main;
+}
+
 @import "headings";
 @import "copy";
