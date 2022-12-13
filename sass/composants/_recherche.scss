@@ -1,0 +1,20 @@
+.recherche {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.recherche div {
+    height: 150px;
+}
+
+.recherche .thumbnail__container {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recherche .thumbnail {
+    margin: 0 auto;
+}

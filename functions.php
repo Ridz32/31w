@@ -48,7 +48,15 @@ function igc31w_setup() {
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
 	add_theme_support( 'post-thumbnails' );
-    // add_image_size( 'miniature' );
+    set_post_thumbnail_size( 150, 150, true);
+    add_image_size( 'miniature', 150, 150 );
+
+    add_theme_support( 'post-formats', array(
+        'height' => 480,
+        'width'  => 720,
+    ) );
+
+
 	// add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
 
 
@@ -67,7 +75,7 @@ function igc31w_setup() {
     // function custom_theme_setup() {
         add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
     // }
-    // add_action( 'after_setup_theme', 'custom_theme_setup' );
+    add_action( 'after_setup_theme', 'custom_theme_setup' );
 
     // Make custom sizes selectable from WordPress admin.
     // function custom_image_sizes( $size_names ) {

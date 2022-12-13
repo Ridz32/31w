@@ -19,6 +19,9 @@
             $nombre_cours = 0;
             while ( have_posts() ) :
 				the_post();
+                $thumbnail = get_the_post_thumbnail();
+                // $thumbnail = set_post_thumbnail_size( 50, 50);
+                $thumbnail;
                 $nombre_cours++;
 				$titre = get_the_title();
 				$code_cours = substr($titre,0,7);
@@ -28,10 +31,15 @@
 
 				$titre = substr($titre, 0, strrpos($titre,'(') - $longueur);
 				?>
-			<header>	
-				<h5><?= $titre  ?></h5>
-				<code>Code du cours:<?= $code_cours  ?></code>
-				<code>Nombre d'heures<?= $heure_cours  ?></code>
+			<header class="recherche">
+                <div class="thumbnail__container">
+                    <span class="thumbnail"><?= $thumbnail ?></span>	
+                </div>
+                <div>
+                    <h5><?= $titre  ?></h5>
+                    <code>Code du cours:<?= $code_cours  ?></code>
+                    <code>Nombre d'heures<?= $heure_cours  ?></code>
+                </div>
                 <hr>
 			</header>
 
