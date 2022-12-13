@@ -41,7 +41,7 @@
                 <div>
                     <h5><?= $code_cours ?><?= $titre  ?><?= $heure_cours ?></h5>
                     <code><?= $excerpt  ?></code>
-                    <code><a href= <?= $permalien  ?> >f</a> </code>
+                    <code><a href= <?= $permalien  ?> >&#8594;</a> </code>
                 </div>
                 <hr>
 			</header>

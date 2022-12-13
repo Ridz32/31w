@@ -518,6 +518,8 @@ h6 {
   margin-left: 12%;
   flex: 1;
   list-style-type: none;
+  flex-wrap: wrap;
+  margin-right: 100px;
 }
 
 .menu__primaire .menu-item a {
@@ -587,7 +589,7 @@ h6 {
   position: absolute;
   top: 10px;
   right: 30px;
-  z-index: 10;
+  z-index: 101;
 }
 
 .burger code {
@@ -599,6 +601,7 @@ h6 {
 }
 
 .menu__aside {
+  z-index: 100;
   padding: 20px 0;
   line-height: 1.5em;
   background-color: black;
