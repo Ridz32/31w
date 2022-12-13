@@ -48,7 +48,12 @@ function igc31w_setup() {
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
 	add_theme_support( 'post-thumbnails' );
+
+    
     set_post_thumbnail_size( 150, 150, true);
+
+
+
     add_image_size( 'miniature', 150, 150 );
 
     add_theme_support( 'post-formats', array(

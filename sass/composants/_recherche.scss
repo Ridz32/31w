@@ -2,14 +2,18 @@
     display: flex;
     gap: 20px;
     align-items: center;
-}
-
-.recherche div {
     height: 150px;
 }
 
+// .recherche div {
+//     height: 150px;
+// }
+
+.recherche h5 {
+   margin: 0 0 5px 0; 
+}
 .recherche .thumbnail__container {
-    width: 150px;
+    width: calc(150px + 20px);
     display: flex;
     justify-content: center;
     align-items: center;

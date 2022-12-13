@@ -11,7 +11,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
@@ -28,6 +27,10 @@
 				$heure_cours = substr($titre,strrpos($titre,'('));
 				$titre = substr($titre,8);
 				$longueur = strlen($titre);
+                $permalien = get_permalink();
+                $excerpt = get_the_excerpt();
+                $excerpt = substr($excerpt,0,120);
+                
 
 				$titre = substr($titre, 0, strrpos($titre,'(') - $longueur);
 				?>
@@ -36,9 +39,9 @@
                     <span class="thumbnail"><?= $thumbnail ?></span>	
                 </div>
                 <div>
-                    <h5><?= $titre  ?></h5>
-                    <code>Code du cours:<?= $code_cours  ?></code>
-                    <code>Nombre d'heures<?= $heure_cours  ?></code>
+                    <h5><?= $code_cours ?><?= $titre  ?><?= $heure_cours ?></h5>
+                    <code><?= $excerpt  ?></code>
+                    <code><a href= <?= $permalien  ?> >f</a> </code>
                 </div>
                 <hr>
 			</header>
