@@ -531,9 +531,23 @@ h6 {
 }
 
 .site__branding {
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+@media screen and (min-width: 700px) {
+  .site__branding {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.site__branding h1 {
+  font-size: 60px;
+  padding-bottom: 1em;
 }
 
 .sidebar__header {
