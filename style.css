@@ -10,6 +10,7 @@ Text Domain: _31w
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 /* Importation des variables */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 /* Normalize */
 /* Inherit box-sizing to more easily change it's value on a component level.
 @link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
@@ -335,7 +336,11 @@ template {
 
 /* Éléments de base */
 body {
-  background: hsl(204deg, 57%, 64%);
+  background: #5ca5d6;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 button,
@@ -543,7 +548,7 @@ h6 {
 }
 
 .menu__aside {
-  background-color: hsl(204deg, 73%, 37%);
+  background-color: hsl(204deg, 60%, 60%);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -618,7 +623,7 @@ h6 {
 .evenement__porte:hover,
 .evenement__stage:hover,
 .evenement__projet:hover {
-  background-color: black;
+  background-color: #5ca5d6;
 }
 
 .evenement__porte:hover a,
@@ -630,7 +635,7 @@ h6 {
 .evenement__porte:hover .menu-item-icone,
 .evenement__stage:hover .menu-item-icone,
 .evenement__projet:hover .menu-item-icone {
-  color: white;
+  background-image: url("https://s2.svgbox.net/files.svg?ic=go-white");
 }
 
 .grille {
@@ -743,15 +748,15 @@ h6 {
 .site__menu {
   position: relative;
   grid-area: menu;
-  background-color: hsl(204deg, 40%, 79%);
+  background-color: hsl(204deg, 60%, 80%);
 }
 
 .site__sidebar {
   grid-area: sidebar;
-  background-color: hsl(204deg, 28%, 37%);
+  background-color: hsl(204deg, 60%, 80%);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: hsl(204deg, 20%, 30%);
-}
+  background-color: hsl(204deg, 60%, 80%);
+}/*# sourceMappingURL=style.css.map */
