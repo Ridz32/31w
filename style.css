@@ -524,6 +524,27 @@ h6 {
   text-decoration: none;
 }
 
+.site__header .sidebar {
+  position: relative;
+  z-index: 99;
+  color: white;
+}
+
+.site__branding {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__header .sidebar {
+  padding: 0;
+}
+
 .chkBurger {
   display: none;
 }

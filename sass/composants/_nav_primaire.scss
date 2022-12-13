@@ -14,3 +14,25 @@
 .menu__primaire .menu-item a {
 text-decoration: none;
 }   
+
+.site__header .sidebar {
+	position: relative;
+    z-index: 99;
+    // background-color: red;
+    color: white;
+}
+
+.site__branding {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__header{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__header .sidebar{
+    padding: 0;
+}
