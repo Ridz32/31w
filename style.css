@@ -789,14 +789,19 @@ h6 {
 }
 
 .recherche .thumbnail__container {
-  width: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .recherche .thumbnail {
+  text-align: center;
   margin: 0 auto;
+  width: 150px;
+}
+
+.recherche hr {
+  height: 5px;
 }
 
 /* Layout */

@@ -43,8 +43,8 @@
                     <code><?= $excerpt  ?></code>
                     <code><a href= <?= $permalien  ?> >&#8594;</a> </code>
                 </div>
-                <hr>
 			</header>
+            <hr>
 
             <?php endwhile;
 ?>
