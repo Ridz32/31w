@@ -48,7 +48,7 @@ function igc31w_setup() {
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
 	add_theme_support( 'post-thumbnails' );
-    add_image_size( 'miniature' );
+    // add_image_size( 'miniature' );
 	// add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
 
 
@@ -64,20 +64,20 @@ function igc31w_setup() {
 
 
     // Add images sizes.
-    function custom_theme_setup() {
+    // function custom_theme_setup() {
         add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
-    }
-    add_action( 'after_setup_theme', 'custom_theme_setup' );
+    // }
+    // add_action( 'after_setup_theme', 'custom_theme_setup' );
 
     // Make custom sizes selectable from WordPress admin.
-    function custom_image_sizes( $size_names ) {
-        $new_sizes = array(
-            'format__carrousel' => __( 'Format Carrousel' ),
-        );
-        return array_merge( $size_names, $new_sizes );
-    }
+    // function custom_image_sizes( $size_names ) {
+    //     $new_sizes = array(
+    //         'format__carrousel' => __( 'Format Carrousel' ),
+    //     );
+    //     return array_merge( $size_names, $new_sizes );
+    // }
 
-    add_filter( 'image_size_names_choose', 'custom_image_sizes' );
+    // add_filter( 'image_size_names_choose', 'custom_image_sizes' );
 
 	// add_image_size( 'remplissage', 400px, 400px );
 
