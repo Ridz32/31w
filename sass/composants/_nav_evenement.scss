@@ -40,7 +40,7 @@
 .evenement__porte:hover,
 .evenement__stage:hover,
 .evenement__projet:hover {
-    background-color: black;
+    background-color: $color__background-body;
 }
 
 .evenement__porte:hover a,
@@ -52,5 +52,9 @@
 .evenement__porte:hover .menu-item-icone,
 .evenement__stage:hover .menu-item-icone,
 .evenement__projet:hover .menu-item-icone {
-    color: white;
+    // filter: url('https://s2.svgbox.net/hero-solid.svg?ic=arrow-down');
+    // filter: invert(60%) sepia(35%) saturate(653%) hue-rotate(161deg) brightness(97%) contrast(83%);
+    // filter: hue-rotate(90deg);
+    // filter: brightness(2);
+    background-image: url('https://s2.svgbox.net/files.svg?ic=go-white');  
 }
