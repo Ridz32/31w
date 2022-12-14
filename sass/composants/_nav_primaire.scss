@@ -14,13 +14,26 @@
 }
 
 .menu__primaire .menu-item a {
-text-decoration: none;
+    text-decoration: none;
+    padding: 6px 30px;
+    border: 1px solid black;
+    font-size: 24px;
+    color: black;
+    background-color: $color__background-menu;
+}   
+
+.menu__primaire .menu-item a:hover {
+    text-decoration: none;
+    padding: 6px 30px;
+    border: 1px solid black;
+    font-size: 24px;
+    color: black;
+    background-color: $color__link__menu__aside-hover;
 }   
 
 .site__header .sidebar {
 	position: relative;
     z-index: 99;
-    // background-color: red;
     color: white;
 }
 
