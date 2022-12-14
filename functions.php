@@ -62,38 +62,6 @@ function igc31w_setup() {
     ) );
 
 
-	// add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
-
-
-
-    // add_filter( 'image_size_names_choose', 'my_custom_sizes' );
-
-    // // marche pas
-    // function my_custom_sizes( $sizes ) {
-    //     return array_merge( $sizes, array(
-    //         'your-custom-size' => __( 'Your Custom Size Name' ),
-    //     ) );
-    // }
-
-
-    // Add images sizes.
-    // function custom_theme_setup() {
-        add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
-    // }
-    add_action( 'after_setup_theme', 'custom_theme_setup' );
-
-    // Make custom sizes selectable from WordPress admin.
-    // function custom_image_sizes( $size_names ) {
-    //     $new_sizes = array(
-    //         'format__carrousel' => __( 'Format Carrousel' ),
-    //     );
-    //     return array_merge( $size_names, $new_sizes );
-    // }
-
-    // add_filter( 'image_size_names_choose', 'custom_image_sizes' );
-
-	// add_image_size( 'remplissage', 400px, 400px );
-
 	// This theme uses wp_nav_menu() in one location.
 
 	register_nav_menus(
@@ -406,3 +374,7 @@ function igc31w_modifie_requete_principal( $query ) {
 	}
 }
 add_action( 'pre_get_posts', 'igc31w_modifie_requete_principal' );
+
+
+// Remove the product description Title
+add_filter( 'woocommerce_product_description_heading', '__return_null' );

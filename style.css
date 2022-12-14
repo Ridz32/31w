@@ -529,6 +529,8 @@ h6 {
   font-size: 24px;
   color: black;
   background-color: hsl(204deg, 60%, 80%);
+  line-height: 2em;
+  white-space: nowrap;
 }
 
 .menu__primaire .menu-item a:hover {
