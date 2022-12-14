@@ -1,4 +1,4 @@
-# TP1
+# TP2
 
 ## Création d'une extension de type carrousel et mise en ligne de site WP sur siteground.com
 
