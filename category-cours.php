@@ -7,7 +7,7 @@
 get_header();
 
 ?>
-	<main class="site__main">
+	<main class="site__main category-cours">
 
 		<?php
 		if ( have_posts() ) :
