@@ -10,7 +10,7 @@
 get_header();
 
 ?>
-	<main class="site__main">
+	<main class="site__main single">
 
 		<?php
 		if ( have_posts() ) :

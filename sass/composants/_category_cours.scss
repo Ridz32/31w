@@ -1,4 +1,4 @@
-.site__main {
+.site__main:not(.single) {
     // background-color: $color__background-main;
     flex-wrap: wrap;
     display: flex;

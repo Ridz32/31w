@@ -336,7 +336,7 @@ template {
 
 /* Éléments de base */
 body {
-  background: #5ca5d6;
+  background: hsl(204deg, 60%, 60%);
 }
 
 * {
@@ -524,6 +524,20 @@ h6 {
 
 .menu__primaire .menu-item a {
   text-decoration: none;
+  padding: 6px 30px;
+  border: 1px solid black;
+  font-size: 24px;
+  color: black;
+  background-color: hsl(204deg, 60%, 80%);
+}
+
+.menu__primaire .menu-item a:hover {
+  text-decoration: none;
+  padding: 6px 30px;
+  border: 1px solid black;
+  font-size: 24px;
+  color: black;
+  background-color: #fff;
 }
 
 .site__header .sidebar {
@@ -804,7 +818,7 @@ h6 {
   height: 5px;
 }
 
-.site__main {
+.site__main:not(.single) {
   flex-wrap: wrap;
   display: flex;
   gap: 20px;
