@@ -31,13 +31,17 @@
  
 	<header id="masthead" class="site__header">
 	<?php 
+
 		wp_nav_menu(array(
 			"menu" => "primaire",
 			"container"=> "nav",
 			"container_class"=> "menu__primaire",
 		))
-	?>
-		<div class="site__branding">
+        ?>
+            <div class="site__branding">
+                
+
+
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -54,12 +58,24 @@
 				?>
 				<p class="site__description"><?php echo $igc31w_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
+            
+            <div class="sidebar__header">                
+                <?php get_sidebar( 'entete-1' ); ?>
+                <?php get_sidebar( 'entete-2' ); ?>
+            </div>
+
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
 	<aside class="site__menu">
+
+
+
+
 	<input type="checkbox" id="chkBurger" class="chkBurger">
 	<label for="chkBurger" class="burger">
-		<code>&#10148;</code>
+		<code>&#9135;</code>
+		<code>&#9135;</code>
+		<code>&#9135;</code>
 	</label>
 	<?php 
 		wp_nav_menu(array(
@@ -68,6 +84,7 @@
 			"container_class"=> "menu__aside",
 		))
 	?>
+
 	</aside>
 	<aside class="site__sidebar">
 			<?php get_sidebar( 'aside-1' ); ?>

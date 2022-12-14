@@ -24,6 +24,8 @@
     background-color: $color__background-header;
 }
 
+
+
 .site__main {
 	grid-area: main;
 	overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */

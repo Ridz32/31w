@@ -48,7 +48,50 @@ function igc31w_setup() {
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'miniature' );
+
+    
+    set_post_thumbnail_size( 150, 150, true);
+
+
+
+    add_image_size( 'miniature', 150, 150 );
+
+    add_theme_support( 'post-formats', array(
+        'height' => 480,
+        'width'  => 720,
+    ) );
+
+
+	// add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
+
+
+
+    // add_filter( 'image_size_names_choose', 'my_custom_sizes' );
+
+    // // marche pas
+    // function my_custom_sizes( $sizes ) {
+    //     return array_merge( $sizes, array(
+    //         'your-custom-size' => __( 'Your Custom Size Name' ),
+    //     ) );
+    // }
+
+
+    // Add images sizes.
+    // function custom_theme_setup() {
+        add_image_size( 'format__carrousel', 300, 300, array( 'left', 'bottom' ) );
+    // }
+    add_action( 'after_setup_theme', 'custom_theme_setup' );
+
+    // Make custom sizes selectable from WordPress admin.
+    // function custom_image_sizes( $size_names ) {
+    //     $new_sizes = array(
+    //         'format__carrousel' => __( 'Format Carrousel' ),
+    //     );
+    //     return array_merge( $size_names, $new_sizes );
+    // }
+
+    // add_filter( 'image_size_names_choose', 'custom_image_sizes' );
+
 	// add_image_size( 'remplissage', 400px, 400px );
 
 	// This theme uses wp_nav_menu() in one location.
@@ -290,6 +333,30 @@ function my_register_sidebars() {
 			'id'            => 'footer-4',
 			'name'          => __( 'Sidebar footer-4' ),
 			'description'   => __( 'Un quatrième  sidebar de footer.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'id'            => 'entete-1',
+			'name'          => __( 'Sidebar entete-1' ),
+			'description'   => __( 'Un premier sidebar dentete.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'id'            => 'entete-2',
+			'name'          => __( 'Sidebar entete-2' ),
+			'description'   => __( 'Un deuxieme  sidebar dentete.' ),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h3 class="widget-title">',

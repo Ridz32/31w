@@ -1,0 +1,29 @@
+.recherche {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 150px;
+}
+
+// .recherche div {
+//     height: 150px;
+// }
+
+.recherche h5 {
+   margin: 0 0 5px 0; 
+}
+.recherche .thumbnail__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recherche .thumbnail {
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.recherche hr {
+    height: 5px;
+}

@@ -9,8 +9,44 @@
     margin-left : 12%;
     flex:1;
     list-style-type: none;
+    flex-wrap: wrap;
+    margin-right: 100px;
 }
 
 .menu__primaire .menu-item a {
 text-decoration: none;
 }   
+
+.site__header .sidebar {
+	position: relative;
+    z-index: 99;
+    // background-color: red;
+    color: white;
+}
+
+.site__branding {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    @media screen and (min-width: 700px){
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+.site__branding h1 {
+    font-size: 60px;
+    padding-bottom: 1em;
+}
+
+.sidebar__header{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__header .sidebar{
+    padding: 0;
+}

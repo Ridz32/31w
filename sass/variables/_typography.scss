@@ -1,10 +1,10 @@
 // stylelint-disable value-keyword-case
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 $font__titre:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 $font__titre__secondaire : trebuchet;
-$font__main: 'Roboto', Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-// stylelint-enable value-keyword-case
+$font__main: 'Roboto Condensed', sans-serif;
 $font__code: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", courier, monospace;
 $font__line-height-body: 1.5;

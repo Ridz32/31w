@@ -26,14 +26,14 @@ get_header();
 				<h5><?= $titre  ?></h5>
 				<code>Code du cours:<?= $code_cours  ?></code>
 				<code>Nombre d'heures<?= $heure_cours  ?></code>
-			</header>
-			
-
-			<?php
+                
+                
+                <?php
 			$le_permalien = "<a href='" . get_the_permalink() . "'>Suite</a>";
 			?>
 			
-			<p><?= wp_trim_words(get_the_excerpt(),5, $le_permalien); ?></p>
+			<p><?= wp_trim_words(get_the_excerpt(),5), " ", $le_permalien; ?></p>
+        </header>
 			
 
 <?php
