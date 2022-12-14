@@ -1,0 +1,25 @@
+.site__main {
+    // background-color: $color__background-main;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.site__main header{
+    background-color: $color__background-header;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 4px;
+    gap: 20px;
+    width: calc((100% / 4) - 20px);
+    padding: 20px;
+    text-align: center;
+}
+
+.site__main h5{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
